@@ -1,0 +1,69 @@
+@charset "utf-8";
+/* CSS Document */
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 569px) and (max-width: 768px) {
+.title{
+	padding: 0px;	
+}
+.p_content{
+	width: 100%;
+	float: none;	
+}
+.p_content:last-child{
+	border: none;	
+}
+.p_content ul {
+    margin-left: 5%;
+}
+	}
+
+/* Iphone 5 Landscape */
+@media only screen and (min-width: 480px) and (max-width: 568px) {
+.title{
+	padding: 0px;	
+}
+.p_content{
+	width: 100%;
+	float: none;	
+}
+.p_content:last-child{
+	border: none;	
+}
+.p_content ul {
+    margin-left: 5%;
+}
+	}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (min-width: 321px) and (max-width: 479px) {
+.title{
+	padding: 0px;	
+}
+.p_content{
+	width: 100%;
+	float: none;	
+}
+.p_content:last-child{
+	border: none;	
+}
+.p_content ul {
+    margin-left: 5%;
+}
+	}
+
+/* Mobile Iphone 5 portrait (devices and browsers) */
+@media only screen and (max-width: 320px) {
+.title{
+	padding: 0px;	
+}
+.p_content{
+	width: 100%;
+	float: none;	
+}
+.p_content:last-child{
+	border: none;	
+}
+.p_content ul {
+    margin-left: 5%;
+}
+	}
